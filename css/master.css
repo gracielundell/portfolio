@@ -18,6 +18,10 @@ ul li {
   letter-spacing: 5px;
   margin: 0; }
 
+.content p {
+  font-family: "Cinzel", serif;
+  font-size: 50px; }
+
 .sidebar {
   width: 270px;
   height: 100vh;
@@ -50,6 +54,16 @@ ul li {
       display: inline-block;
       padding: 5px;
       width: 40px; }
+
+.content {
+  margin-left: 20%;
+  padding: 40px;
+  display: flex; }
+  .content p {
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px; }
 
 .content {
   display: flex;
