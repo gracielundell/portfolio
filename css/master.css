@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+ul li {
+  font-family: "Cinzel", serif; }
+
+.sidebar {
+  width: 270px;
+  height: 100vh;
+  border-right: 3px solid #DCDCDC;
+  margin: 0px;
+  float: left;
+  padding: 20px; }
+  .sidebar img {
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding-bottom: 40vh; }
+  .sidebar ul {
+    display: block;
+    margin: auto; }
+    .sidebar ul li {
+      list-style: none;
+      padding: 30px 0;
+      font-size: 30px; }
+      .sidebar ul li a {
+        text-decoration: none;
+        color: #247BA0; }
+        .sidebar ul li a:hover {
+          color: #70c1b3; }
+  .sidebar .personalLinks a img {
+    padding: 0;
+    width: 40px;
+    margin: 0; }
+
+/*# sourceMappingURL=master.css.map */
