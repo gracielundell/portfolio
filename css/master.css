@@ -12,10 +12,16 @@ body {
 ul li {
   font-family: "Cinzel", serif; }
 
+.name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 90px;
+  letter-spacing: 5px;
+  margin: 0; }
+
 .sidebar {
   width: 270px;
   height: 100vh;
-  border-right: 3px solid #DCDCDC;
+  border-right: 1px solid #808080;
   margin: 0px;
   float: left;
   padding: 20px; }
@@ -36,9 +42,35 @@ ul li {
         color: #247BA0; }
         .sidebar ul li a:hover {
           color: #70c1b3; }
-  .sidebar .personalLinks a img {
-    padding: 0;
-    width: 40px;
-    margin: 0; }
+  .sidebar .personalLinks {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh; }
+    .sidebar .personalLinks .social-icon img {
+      display: inline-block;
+      padding: 5px;
+      width: 40px; }
+
+.content {
+  display: flex;
+  height: 100vh; }
+  .content .blurb {
+    margin: auto;
+    display: block;
+    text-align: center; }
+    .content .blurb p:last-child {
+      font-size: 30px; }
+
+.contentHome {
+  display: flex;
+  height: 100vh;
+  background: url("../img/background2.JPG") no-repeat top;
+  background-size: cover; }
+  .contentHome .blurb {
+    margin: auto;
+    display: block;
+    text-align: center; }
+    .contentHome .blurb p:last-child {
+      font-size: 22px; }
 
 /*# sourceMappingURL=master.css.map */
