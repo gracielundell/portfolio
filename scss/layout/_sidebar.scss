@@ -22,7 +22,7 @@
         text-decoration: none;
         color: $denim;
         &:hover {
-          color: $mainAqua;
+          text-decoration: underline;
         }
       }
     }
@@ -30,7 +30,7 @@
   .personalLinks {
     display: flex;
     justify-content: center;
-    padding-top: 10vh;
+    padding-top: 10%;
     .social-icon {
       img {
         display: inline-block;
@@ -38,5 +38,11 @@
         width: 40px;
       }
     }
+  }
+}
+
+.navbar {
+  .active {
+    color: $mainAqua;
   }
 }

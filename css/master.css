@@ -18,9 +18,16 @@ ul li {
   letter-spacing: 5px;
   margin: 0; }
 
-.content p {
+.content h1, .content h4 {
+  display: flex;
   font-family: "Cinzel", serif;
-  font-size: 50px; }
+  justify-content: center; }
+.content h3 {
+  font-family: "Cinzel", serif; }
+.content p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  line-height: 28px; }
 
 .sidebar {
   width: 270px;
@@ -45,25 +52,23 @@ ul li {
         text-decoration: none;
         color: #247BA0; }
         .sidebar ul li a:hover {
-          color: #70c1b3; }
+          text-decoration: underline; }
   .sidebar .personalLinks {
     display: flex;
     justify-content: center;
-    padding-top: 10vh; }
+    padding-top: 10%; }
     .sidebar .personalLinks .social-icon img {
       display: inline-block;
       padding: 5px;
       width: 40px; }
 
+.navbar .active {
+  color: #70c1b3; }
+
 .content {
   margin-left: 20%;
-  padding: 40px;
-  display: flex; }
-  .content p {
-    justify-content: center;
-    display: block;
-    margin: 0 auto;
-    padding-top: 40px; }
+  padding: 40px 100px;
+  height: 100vh; }
 
 .content {
   display: flex;
