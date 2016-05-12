@@ -121,17 +121,31 @@ p {
     .projects .project img {
       width: 280px;
       height: 200px;
-      margin-right: 30px;
+      margin: auto 30px auto 0;
       border: 1px solid #808080; }
     .projects .project a {
-      text-decoration: none; }
+      text-decoration: none;
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 20px; }
       .projects .project a:hover {
         color: #70c1b3; }
+    .projects .project h2 {
+      margin: 0; }
     .projects .project p {
       padding: 0px; }
+    .projects .project .info {
+      padding: 0; }
+      .projects .project .info ul {
+        display: inline;
+        margin: auto; }
+      .projects .project .info li {
+        list-style: none;
+        padding: 5px; }
   .projects #sass img {
     width: 250px;
-    height: 250px; }
+    height: 250px;
+    margin: auto 30px auto 0; }
 
 .content {
   display: flex;
