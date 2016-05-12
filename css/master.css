@@ -35,6 +35,10 @@ body {
 .content .contactMe ul li {
   font-family: 'Libre Baskerville', serif; }
 
+.projects h1 {
+  font-family: "Cinzel", serif;
+  padding: 0 50px; }
+
 .sidebar {
   width: 270px;
   height: 100vh;
@@ -96,6 +100,12 @@ body {
     display: none; }
   .content #blogPost1 {
     display: none; }
+
+.projects {
+  margin-left: 20%;
+  height: 100vh;
+  overflow: auto;
+  padding: 80px 40px 20px 0px; }
 
 .content {
   display: flex;
