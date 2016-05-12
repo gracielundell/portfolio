@@ -4,18 +4,26 @@ $(document).ready(function() {
       $(this).addClass('active');
     };
   });
+
   $("#angularVSember").click(function(){
-    $("#blogPost2").slideDown("slow");
-    $("#angularVSember").click(function() {
-         $("#blogPost2").slideUp("slow");
-    });
+    // $("#angularVSember").off();
+    if($(this).hasClass("open")) {
+      $(this).removeClass('open');
+      $("#blogPost2").slideUp("slow");
+    } else {
+      $(this).addClass('open');
+      $("#blogPost2").slideDown("slow");
+    }
   });
 
   $("#htmlBasics").click(function(){
-    $("#blogPost1").slideDown("slow");
-    $("#htmlBasics").click(function() {
-         $("#blogPost1").slideUp("slow");
-    });
+    if($(this).hasClass("open")) {
+      $(this).removeClass('open');
+      $("#blogPost1").slideUp("slow");
+    } else {
+      $(this).addClass('open');
+      $("#blogPost1").slideDown("slow");
+    }
   });
 
 });

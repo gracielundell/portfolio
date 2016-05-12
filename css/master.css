@@ -7,9 +7,10 @@
 
 body {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  height: 100vh; }
 
-ul li {
+.sidebar ul li {
   font-family: "Cinzel", serif; }
 
 .name {
@@ -21,6 +22,8 @@ ul li {
 .content h1, .content h4 {
   font-family: "Cinzel", serif;
   padding: 0 50px; }
+.content h4 {
+  padding-left: 20px; }
 .content h2 {
   font-family: "Cinzel", serif;
   color: #247BA0; }
@@ -29,6 +32,8 @@ ul li {
   font-size: 18px;
   line-height: 28px;
   padding-right: 20vw; }
+.content .contactMe ul li {
+  font-family: 'Libre Baskerville', serif; }
 
 .sidebar {
   width: 270px;
@@ -72,8 +77,9 @@ ul li {
   overflow: auto;
   padding: 80px 40px 20px 0px; }
   .content .blogPost {
-    background: #cbe7d4;
+    background: #d5ebdc;
     padding: 20px;
+    padding-left: 30px;
     width: 100vw;
     margin-top: 20px;
     display: flex;
@@ -90,6 +96,37 @@ ul li {
     display: none; }
   .content #blogPost1 {
     display: none; }
+
+.content {
+  display: flex;
+  justify-content: space-between; }
+  .content .contactInfo {
+    justify-content: flex-start; }
+    .content .contactInfo h1 {
+      margin: 0; }
+    .content .contactInfo p, .content .contactInfo h3 {
+      padding: 0 50px; }
+    .content .contactInfo h3 {
+      margin-top: 30%; }
+  .content .contactImg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    padding-top: 300px; }
+    .content .contactImg img {
+      width: 500px;
+      height: 500px; }
+  .content .contactMe li {
+    padding: 10px;
+    font-size: 18px;
+    list-style: none; }
+    .content .contactMe li a {
+      text-decoration: none;
+      font-family: "Cinzel", serif;
+      color: #247BA0; }
+      .content .contactMe li a:hover {
+        color: #70c1b3; }
 
 .content {
   display: flex;
