@@ -2,8 +2,33 @@
   margin-left: 20%;
   height: 100vh;
   overflow: auto;
-  padding: 80px 40px 20px 0px;
+  padding: 80px 80px 20px 40px;
+  display: flex;
+  flex-direction: column;
   .project {
-
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid $lightGrey;
+    img {
+      width: 280px;
+      height: 200px;
+      margin-right: 30px;
+      border: 1px solid $lightGrey;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        color: $mainAqua;
+      }
+    }
+    p {
+      padding: 0px;
+    }
+  }
+  #sass {
+    img {
+      width: 250px;
+      height: 250px;
+    }
   }
 }

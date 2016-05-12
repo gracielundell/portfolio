@@ -27,9 +27,6 @@
   }
   p {
     font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
-    line-height: 28px;
-    padding-right: 20vw;
   }
   .contactMe {
     ul {
@@ -40,9 +37,14 @@
   }
 }
 
+p {
+  font-size: 18px;
+  line-height: 28px;
+  padding-right: 20vw;
+}
+
 .projects {
   h1 {
     font-family: "Cinzel", serif;
-    padding: 0 50px;
   }
 }
