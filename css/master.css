@@ -19,11 +19,10 @@ ul li {
   margin: 0; }
 
 .content h1, .content h4 {
-  display: flex;
-  font-family: "Cinzel", serif;
-  justify-content: center; }
-.content h3 {
   font-family: "Cinzel", serif; }
+.content h2 {
+  font-family: "Cinzel", serif;
+  color: #70c1b3; }
 .content p {
   font-family: 'Libre Baskerville', serif;
   font-size: 18px;
@@ -68,7 +67,17 @@ ul li {
 .content {
   margin-left: 20%;
   padding: 40px 100px;
-  height: 100vh; }
+  height: 100vh;
+  overflow: auto; }
+  .content .blog ul {
+    display: block;
+    margin: auto; }
+    .content .blog ul li {
+      list-style: none; }
+  .content #blogPost2 {
+    display: none; }
+  .content #blogPost1 {
+    display: none; }
 
 .content {
   display: flex;

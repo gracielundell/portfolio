@@ -2,4 +2,21 @@
   margin-left: 20%;
   padding: 40px 100px;
   height: 100vh;
+  overflow: auto;
+  .blog {
+    ul {
+      display: block;
+      margin: auto;
+      li {
+        list-style: none;
+      }
+    }
+  }
+
+  #blogPost2 {
+    display: none;
+  }
+  #blogPost1 {
+    display: none;
+  }
 }

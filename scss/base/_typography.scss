@@ -13,12 +13,11 @@ ul {
 
 .content {
   h1, h4 {
-    display: flex;
     font-family: "Cinzel", serif;
-    justify-content: center;
   }
-  h3 {
+  h2 {
     font-family: "Cinzel", serif;
+    color: $mainAqua;
   }
   p {
     font-family: 'Libre Baskerville', serif;
