@@ -19,14 +19,16 @@ ul li {
   margin: 0; }
 
 .content h1, .content h4 {
-  font-family: "Cinzel", serif; }
+  font-family: "Cinzel", serif;
+  padding: 0 50px; }
 .content h2 {
   font-family: "Cinzel", serif;
-  color: #70c1b3; }
+  color: #247BA0; }
 .content p {
   font-family: 'Libre Baskerville', serif;
   font-size: 18px;
-  line-height: 28px; }
+  line-height: 28px;
+  padding-right: 20vw; }
 
 .sidebar {
   width: 270px;
@@ -66,13 +68,23 @@ ul li {
 
 .content {
   margin-left: 20%;
-  padding: 40px 100px;
   height: 100vh;
-  overflow: auto; }
-  .content .blog ul {
-    display: block;
-    margin: auto; }
-    .content .blog ul li {
+  overflow: auto;
+  padding: 80px 40px 20px 0px; }
+  .content .blogPost {
+    background: #cbe7d4;
+    padding: 20px;
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .content .blog {
+    padding: 0; }
+    .content .blog ul {
+      display: block;
+      margin: auto; }
+    .content .blog li {
       list-style: none; }
   .content #blogPost2 {
     display: none; }

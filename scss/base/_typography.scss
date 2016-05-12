@@ -14,14 +14,18 @@ ul {
 .content {
   h1, h4 {
     font-family: "Cinzel", serif;
+    padding: 0 50px;
+  }
+  h4 {
   }
   h2 {
     font-family: "Cinzel", serif;
-    color: $mainAqua;
+    color: $denim;
   }
   p {
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     line-height: 28px;
+    padding-right: 20vw;
   }
 }

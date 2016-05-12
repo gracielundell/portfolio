@@ -1,15 +1,25 @@
 .content {
   margin-left: 20%;
-  padding: 40px 100px;
   height: 100vh;
   overflow: auto;
+  padding: 80px 40px 20px 0px;
+  .blogPost {
+    background: $mint;
+    padding: 20px;
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .blog {
+    padding: 0;
     ul {
       display: block;
       margin: auto;
-      li {
-        list-style: none;
-      }
+    }
+    li {
+      list-style: none;
     }
   }
 

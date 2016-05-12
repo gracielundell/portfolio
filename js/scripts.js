@@ -10,6 +10,7 @@ $(document).ready(function() {
          $("#blogPost2").slideUp("slow");
     });
   });
+
   $("#htmlBasics").click(function(){
     $("#blogPost1").slideDown("slow");
     $("#htmlBasics").click(function() {
