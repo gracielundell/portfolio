@@ -8,22 +8,23 @@ $(document).ready(function() {
   $("#angularVSember").click(function(){
     // $("#angularVSember").off();
     if($(this).hasClass("open")) {
-      $(this).removeClass('open');
+      $(this).removeClass("open");
       $("#blogPost2").slideUp("slow");
     } else {
-      $(this).addClass('open');
+      $(this).addClass("open");
       $("#blogPost2").slideDown("slow");
     }
   });
 
   $("#htmlBasics").click(function(){
     if($(this).hasClass("open")) {
-      $(this).removeClass('open');
+      $(this).removeClass("open");
       $("#blogPost1").slideUp("slow");
     } else {
-      $(this).addClass('open');
+      $(this).addClass("open");
       $("#blogPost1").slideDown("slow");
     }
   });
+
 
 });

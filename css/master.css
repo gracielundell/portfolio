@@ -115,13 +115,13 @@ p {
   display: flex;
   flex-direction: column; }
   .projects .project {
-    display: flex;
     padding: 30px 0;
+    padding-bottom: 300px;
     border-bottom: 1px solid #808080; }
     .projects .project img {
-      width: 280px;
+      width: 250px;
       height: 200px;
-      margin: auto 30px auto 0;
+      margin: 18px 30px 18px 0;
       border: 1px solid #808080; }
     .projects .project a {
       text-decoration: none;
@@ -135,17 +135,25 @@ p {
     .projects .project p {
       padding: 0px; }
     .projects .project .info {
-      padding: 0; }
+      width: 70%;
+      padding: 0;
+      margin-bottom: 30px;
+      float: right; }
+      @media (max-width: 1340px) {
+        .projects .project .info {
+          width: 60%; } }
       .projects .project .info ul {
-        display: inline;
-        margin: auto; }
+        margin: auto;
+        margin-bottom: 20px; }
       .projects .project .info li {
-        list-style: none;
-        padding: 5px; }
+        display: inline;
+        padding: 5px 10px; }
   .projects #sass img {
     width: 250px;
-    height: 250px;
-    margin: auto 30px auto 0; }
+    height: 250px; }
+  .projects #grow img {
+    width: 250px;
+    height: 230px; }
 
 .content {
   display: flex;
@@ -188,6 +196,8 @@ p {
     .contentHome .blurb p {
       padding: 0; }
     .contentHome .blurb p:last-child {
-      font-size: 22px; }
+      font-size: 22px;
+      padding-top: 15px;
+      letter-spacing: 2px; }
 
 /*# sourceMappingURL=master.css.map */
