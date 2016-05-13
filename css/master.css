@@ -174,16 +174,6 @@ p {
     .content .contactMe li a:hover {
       color: #70c1b3; }
 
-.content {
-  display: flex;
-  height: 100vh; }
-  .content .blurb {
-    margin: auto;
-    display: block;
-    text-align: center; }
-    .content .blurb p:last-child {
-      font-size: 30px; }
-
 .contentHome {
   display: flex;
   height: 100vh;
@@ -192,7 +182,11 @@ p {
   .contentHome .blurb {
     margin: auto;
     display: block;
-    text-align: center; }
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+    .contentHome .blurb .name {
+      padding: 0; }
     .contentHome .blurb p:last-child {
       font-size: 22px; }
 

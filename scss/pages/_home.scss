@@ -1,16 +1,3 @@
-.content {
-    display: flex;
-    height: 100vh;
-    .blurb {
-      margin: auto;
-      display: block;
-      text-align: center;
-      p:last-child {
-        font-size: 30px;
-      }
-    }
-  }
-
 .contentHome {
   display: flex;
   height: 100vh;
@@ -20,11 +7,18 @@
     margin: auto;
     display: block;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    .name {
+      padding: 0;
+    }
     p:last-child {
       font-size: 22px;
     }
   }
 }
+
+
 
 
 // <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville|Quicksand|EB+Garamond|Playfair+Display+SC' rel='stylesheet' type='text/css'>
