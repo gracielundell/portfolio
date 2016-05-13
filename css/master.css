@@ -185,7 +185,7 @@ p {
     text-align: center;
     justify-content: center;
     align-items: center; }
-    .contentHome .blurb .name {
+    .contentHome .blurb p {
       padding: 0; }
     .contentHome .blurb p:last-child {
       font-size: 22px; }
