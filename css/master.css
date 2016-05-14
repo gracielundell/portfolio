@@ -45,6 +45,13 @@ p {
 .projects h1 {
   font-family: "Cinzel", serif; }
 
+.CSheader {
+  background: red;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../img/caseStudies/radish.jpg") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  width: 100vw; }
+
 .sidebar {
   width: 270px;
   height: 100vh;
@@ -199,5 +206,8 @@ p {
       font-size: 22px;
       padding-top: 15px;
       letter-spacing: 2px; }
+
+.caseStudy li {
+  list-style: none; }
 
 /*# sourceMappingURL=master.css.map */
