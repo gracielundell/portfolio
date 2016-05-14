@@ -7,11 +7,20 @@
     background: $mint;
     padding: 20px;
     padding-left: 30px;
-    width: 100vw;
+    width: 70vw;
     margin-top: 20px;
+    margin-left: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .open {
+    h1 {
+      font-size: 25px;
+    }
+    h4 {
+      display: none;
+    }
   }
   .blog {
     padding: 0;

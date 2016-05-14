@@ -1,0 +1,40 @@
+.caseStudy {
+  margin: 5% 15%;
+  p {
+    text-align: justify;
+    padding: 0;
+  }
+  .images {
+    display: flex;
+    img {
+      margin-top: 0px 10px 10px 0px;
+    }
+    .col1 {
+      img {
+        height: 250px;
+        margin-right: 10px;
+      }
+    }
+    .col2, .col3 {
+      display: flex;
+      flex-direction: column;
+      margin: 0 10px;
+      img {
+        height: 200px;
+        margin-bottom: 20px;
+      }
+    }
+    .col2 {
+      width: 270px;
+    }
+    .col3 {
+      img:first-child {
+        height: 170px;
+        width: 200px;
+      }
+      img:last-child {
+        height: 270px;
+      }
+    }
+  }
+}

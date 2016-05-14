@@ -38,13 +38,21 @@
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
-  padding-right: 20vw;
+  padding-right: 5vw;
 }
 
 .projects {
   h1 {
     font-family: "Cinzel", serif;
+  }
+}
+
+
+.caseStudy {
+  h1, h4 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
   }
 }
